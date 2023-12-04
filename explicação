@@ -1,0 +1,46 @@
+Codificou classes?
+Sim, foi codificada uma classe chamada FechaduraDigital para representar a fechadura digital.
+
+Codificou atributos?
+Em FechaduraDigital: lockServo, servoPin, unlockAngle, lockAngle e estado são atributos da classe. Eles são usados para controlar o servo motor e manter o estado da fechadura.
+
+Codificou métodos?
+Na FechaduraDigital: destrancar() e trancar() são métodos que permitem destrancar e trancar a fechadura digital, respectivamente.
+
+Codificou métodos construtores?
+Isso, na classe FechaduraDigital, tem um método construtor que recebe um parâmetro servoPin e que é responsável por inicializar os atributos de classe.
+
+Codificou atributos protegidos e/ou privados?
+Sim, na classe FechaduraDigital, os atributos(lockServo, servoPin, unlockAngle, lockAngle e estado) são privados, o que significa que eles não podem ser acessados diretamente por fora da classe.
+
+Codificou métodos protegidos e/ou privados?
+Correto, na classe FechaduraDigital, os métodos de destrancar() e trancar() são privados, o que mostra que eles só podem ser chamados dentro da classe e por fora da classe.
+
+Instanciou objetos?
+Sim. Um objeto da classe FechaduraDigital chamado fechadura foi instanciado.
+
+Instalou e usou bibliotecas de terceiros?
+Sim, a biblioteca de terceiros Servo.h foi instalada e usada para controlar o servo motor.
+
+Codificou enums?
+Sim, o enum EstadoFechadura foi codificado para representar os estados da fechadura (TRANCADA e DESTRANCADA).
+
+Atributos Estáticos: O atributo isOpen da classe Door é estático, o que significa que é compartilhado entre todas as instâncias da classe.
+
+Métodos Estáticos: O método isDoorOpen é um método estático que pode ser chamado sem criar uma instância da classe.
+
+Métodos Destrutores: A classe SmartLock possui um destrutor (~SmartLock()), que é chamado automaticamente quando um objeto é destruído.
+
+Interfaces ou Classes Puramente Virtuais: A classe Lockable é uma interface puramente virtual, pois contém apenas métodos virtuais puros sem implementação.
+
+Classes Abstratas ou Classes Virtuais: A classe Door é uma classe abstrata que contém métodos virtuais puros, obrigando as classes derivadas a implementá-los.
+
+Identificou e Codificou Classes de Dados: Door e Lockable são classes que representam dados (atributos e estados) e não possuem lógica de comportamento.
+
+Identificou e Codificou Classes de Comportamento: SmartLock é uma classe que possui lógica de comportamento para trancar, destrancar, abrir e fechar a porta.
+
+Usou Polimorfismo: A classe SmartLock herda de duas classes (Door e Lockable) e implementa métodos polimórficos, como lock, unlock, open, e close.
+
+Codificou Testes Unitários: A classe TestSmartLock contém métodos de teste que verificam o comportamento esperado da classe SmartLock.
+
+Codificou Padrões de Projeto: Neste exemplo, um padrão de projeto não foi explicitamente codificado, pois o foco estava em abordar os conceitos mencionados. Padrões de projeto específicos podem ser incorporados dependendo dos requisitos do projeto.
